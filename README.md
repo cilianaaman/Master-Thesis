@@ -14,5 +14,5 @@ The project uses a Conditional Variational Autoencoder (CVAE) model to structure
 |------|-------------|
 | `File_preparation.py` | Prepares the KineMatrix-extracted data for use in the CVAE model. This includes data formatting, standardization, and preprocessing. |
 | `CVAE_with_covariets.py` | The main CVAE model used in the thesis. Includes covariates (e.g., asymmetry) to improve latent space organization by injury severity. |
-| `CVAE_without_covariets.py` | A baseline CVAE model without covariates. Used for comparison to assess the added value of conditioning. |
+| `CVAE_without_covariets.py` | A baseline CVAE model without covariates. Used for comparison to assess the added value of using covariets. |
 | `classification.py` | Contains data preparation, model training, and evaluation for supervised classification. Uses CVAE-derived cluster labels as targets. Includes Random Forest, SVM, MLP, and Logistic Regression classifiers. |
